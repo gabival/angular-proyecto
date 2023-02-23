@@ -1,0 +1,34 @@
+<nav *ngIf="showNav" class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text" href="#">Navbar</a>
+      <button class="navbar-toggler navButon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text" aria-current="page" routerLink="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#" routerLink="/inicio">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#" routerLink="/registro">regis</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav *ngIf="!showNav" class="navbar bg-body-tertiary navbar-light fixed-top" >
+    <div class="container-fluid">
+      <a class="navbar-brand text ml-5" href="#">
+        <img src="https://inf.policiadnfr.gob.bo/imagenes/dnfr.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Bootstrap
+      </a>
+    </div>
+  </nav>
