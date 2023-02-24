@@ -5,13 +5,7 @@
 export const environment = {
     production: false,
     firebase: {
-        apiKey: "AIzaSyCkphLu76pPrKskACVzPCBy7cUFR6Z6-b8",
-        authDomain: "sistemamonitoreo-2aa7e.firebaseapp.com",
-        projectId: "sistemamonitoreo-2aa7e",
-        storageBucket: "sistemamonitoreo-2aa7e.appspot.com",
-        messagingSenderId: "604710878148",
-        appId: "1:604710878148:web:55801199d8273fdaa50291",
-        measurementId: "G-97Q0X6KYRT"
+       
     }
   };
   
